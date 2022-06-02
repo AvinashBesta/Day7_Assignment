@@ -1,0 +1,24 @@
+ADI@DESKTOP-QOAUI48 MINGW64 ~/sam4 (master)
+$ bash sam7.sh
+437
+425
+450
+442
+433
+477
+440
+471
+449
+476
+
+
+
+Nano code
+  GNU nano 6.2                                                                                sam7.sh
+#!bin/bash
+for (( i=1; i<=10; i++ ))
+do
+r=$(( $RANDOM % 100 + 400 ));
+echo $r
+done
+
